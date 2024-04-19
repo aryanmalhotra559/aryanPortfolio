@@ -64,6 +64,8 @@
     font-size: 12px;
     width: 100px;
     margin-right: 10px; 
+    text-decoration: none;
+    text-align: center;
 }
 
 .hire-me-button:hover {
