@@ -1,0 +1,319 @@
+.ind {
+    background: linear-gradient(to bottom, #1f1d20 0%, #1f1d20 80%, #d6d6d6 80%, #d6d6d6 100%);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link.active {
+    color: crimson; 
+}
+
+.hello {
+    justify-content: left;
+    color: crimson;
+}
+
+.name {
+    color: #fff;
+    font-weight: bold;
+}
+
+.content {
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -500px;
+    margin-top: -200px;
+    position: relative;
+    z-index: 1;
+    float:left;
+    width:50%;
+}
+
+.info {
+    color: #fff;
+}
+
+.homeabout {
+    color: #fff;
+    font-size: 15px;
+}
+
+.hire-me-button {
+    margin-top: 20px;
+    background-color: crimson;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    width: calc(50% - 20px);
+    margin-right: 10px; 
+}
+
+.hire-me-button:hover {
+    background-color: darkred;
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 70%;
+    position: absolute;
+    top: 133px;
+    right: 100px;
+    bottom: 0;
+    z-index: 0;
+}
+
+.image-container img {
+    height: calc(100vh - 300px);
+    width:410px;
+}
+
+.proverb1{
+    position:absolute;
+    bottom:30px;
+    left:250px;
+    color:#1f1d20;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:350px;
+}
+
+.proverb2{
+    position:absolute;
+    bottom:30px;
+    right:250px;
+    color:#1f1d20;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:380px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    margin-top: 20px;
+}
+
+
+/*resume*/
+
+
+.res {
+    background: linear-gradient(to bottom, #1f1d20 0%, #1f1d20 100%, #fff 100%, #fff 100%);
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.resblock{
+    display:flex;
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    text-align: justify;
+}
+
+.lr{
+    margin-left:40px;
+    margin-right:40px;
+    width:50%;
+}
+
+.heading {
+    color: crimson;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.right{
+    float: right;
+    width: 45%;
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+    color: crimson;
+}
+.mainfoot{
+    display:flex;
+    justify-content: left;
+    margin-top:150px;
+    background-image: url('IMG_8524\ copy.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color:white;
+}
+.foot{
+    width:250px;
+    justify-content: center;
+    margin-left:250px;
+    margin-right:250px;
+    margin-bottom: 50px;
+    text-align: justify;
+    margin-top:50px;
+}
+.fa {
+    padding: 20px;
+    font-size: 10px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.5;
+}
+.fa-facebook {
+    border:solid 1px white;
+    /*background: #3B5998;*/
+    color: white;
+}
+.fa-twitter {
+    border:solid 1px white;
+    /*background: #55ACEE;*/
+    color: white;
+}
+.fa-linkedin{
+    border:solid 1px white;
+    /*background-color: #0072b1;*/
+    color: white;
+}
+
+
+/*Contact*/
+
+
+.con {
+    background: linear-gradient(to bottom, #1f1d20 0%, #1f1d20 100%, #fff 100%, #fff 100%);
+    color:#fff;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.conform{
+    display:flex;
+    margin-top:50px;
+}
+
+.subconform1{
+    margin-top: 600px;
+    width: 600px;
+    justify-content: left;
+    margin-left:150px;
+}
+.subconform2{
+    margin-top: 20px;
+    width: 600px;
+    justify-content: left;
+    margin-left:120px;
+    margin-bottom:50px;
+}
+.contactbox{
+    color:white;
+    background-color: #1f1d20;
+    border:solid 1px #1f1d20;
+    box-shadow: 5px 10px 10px 5px black;
+    border-radius: 15px;
+    height:100px;
+    justify-content: center;
+    display:flex;
+    width:400px;
+    padding-top:20px;
+}
+
+.sendmesbox{
+    color:white;
+    background-color: #1f1d20;
+    border:solid 1px #1f1d20;
+    box-shadow: 10px 15px 15px 10px black;
+    border-radius: 15px;
+    margin-top:500px;
+    margin-right: 150px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+
+
+/*about*/
+
+
+.ab {
+    background: linear-gradient(to bottom, #1f1d20 0%, #1f1d20 100%, #fff 100%, #fff 100%);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.aboutme{
+    color:white;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top:600px;
+}
+
+.subme{
+    display:flex;
+}
+
+.subme1{
+    width:450px;
+}
+
+.subme2{
+    width:700px;
+    margin-left:100px;
+    font-size:19px;
+}
+
